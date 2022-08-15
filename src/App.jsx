@@ -68,7 +68,7 @@ function App() {
           <h2>RICK AND MORTY API</h2>
           <div className='icons-container'>
             <a href="https://github.com/chrismendez11/rick-and-morty" target="_blank"><i className='bx bxl-github' ></i></a>
-            <a href="" target="_blank"><i className='bx bxl-twitter' ></i></a>
+            <a href="https://twitter.com/MndzChristian" target="_blank"><i className='bx bxl-twitter' ></i></a>
             <a href="https://www.linkedin.com/in/christian-mendez-b8576822b/" target="_blank"><i className='bx bxl-linkedin-square' ></i></a>
             
           </div>

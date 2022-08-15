@@ -187,6 +187,7 @@ footer {
 }
 
 .footer-information h2 {
+    font-family: 'Comfortaa', cursive;
     color: #cecece;
     font-size: 2.4rem;
     text-align: center;
@@ -209,12 +210,14 @@ footer {
 }
 
 .footer-information h3 {
+    font-family: 'Comfortaa', cursive;
     font-size: 1.6rem;
     text-align: center;
     color: #cecece;
 }
 
 .footer-information h3 a {
+    font-family: 'Comfortaa', cursive;
     color: white;
     text-decoration: none;
     border-bottom: 1px solid #1363DF;
