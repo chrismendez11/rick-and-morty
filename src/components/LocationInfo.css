@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.location-container {
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 625px;
+    min-width: 300px;
+    height: auto;
+    background-color: #062226;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.location-container h2 {
+    text-align: center;
+    color: white;
+    font-size: 2.4rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+.location-container ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.location-container ul li {
+    color: white;
+    font-size: 1.8rem;
+    line-height: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.location-container ul li span {
+    font-weight: bold;
+    font-size: 2.0rem;
+}
+
+@media (min-width: 425px) {
+    .location-container {
+        flex-direction: column;
+    }
+    .location-container ul {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 675px) {
+    .location-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .location-container ul {
+       
+    }
+}

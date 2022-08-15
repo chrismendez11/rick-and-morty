@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    
+}
+
+body {
+    background-color: #05292E;
+}
+
+.header-img {
+    width: 100%;
+    height: 372px;
+    margin-top: -372px;
+    position: absolute;
+    background-image: url('./assets/img/header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-text {
+    width: 100%;
+    height: 372px;
+    margin-top: -372px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text h1 {
+    color: white;
+    font-size: 6.4rem;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.main-content {
+    margin-top: 372px;
+    padding: 40px 20px;
+}
+
+.search-container {
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    min-width: 300px;
+    height: auto;
+    background-color: #062226;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+
+.search-container h2 {
+    color: white;
+    font-size: 3.2rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+}
+
+.search-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.search-container form input {
+    width: 120px;
+    height: 120px;
+    border: none;
+    font-size: 4.8rem;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+/* .search-container form button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+} */
+
+@media (min-width: 675px) {
+    .search-container form {
+        flex-direction: row;
+        justify-content: center;
+    }
+   }
+
+.cards-container {
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* From uiverse.io by @adamgiebl */
+button {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.4rem;
+    background: #05292E;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+   }
+   
+   button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+   }
+   
+   button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+   }
+   
+   button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+   }
+   
+   button:hover svg {
+    transform: translateX(2.3em) rotate(45deg) scale(1.1);
+   }
+   
+   button:hover span {
+    transform: translateX(6em);
+   }
+   
+   button:active {
+    transform: scale(0.95);
+   }
+   
+   @keyframes fly-1 {
+    from {
+     transform: translateY(0.1em);
+    }
+   
+    to {
+     transform: translateY(-0.1em);
+    }
+   }
+   
+
+   

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+article {
+    width: 300px;
+    background-color: #062226;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+}
+
+.status {
+    width: 120px;
+    height: 28px;
+    padding: 0 10px;
+    border-radius: 0 10px 10px 0;
+    background-color: #062226;
+    position: absolute;
+    margin-top: -275px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.status span {
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+.card-information {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-information h3 {
+    color: white;
+    font-size: 2.4rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+.card-information ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-information ul li span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #7E7E7E;
+}
+
+.card-information ul li {
+    color: white;
+    font-size: 1.8rem;
+    line-height: 20px;
+    font-family: 'Comfortaa', cursive;
+}
