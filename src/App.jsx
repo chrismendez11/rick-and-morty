@@ -37,7 +37,7 @@ function App() {
         <div className='search-container'>
           <h2>Search a planet from 1 to 126</h2>
           <form onSubmit={handleSubmit} action="">
-            <input id='search' type="text" maxLength="3"/>
+            <input id='search' type="text" maxLength="3" />
             <button>
               <div className="svg-wrapper-1">
                 <div className="svg-wrapper">
@@ -63,6 +63,18 @@ function App() {
           }
         </div>
       </div>
+      <footer>
+        <div className='footer-information'>
+          <h2>RICK AND MORTY API</h2>
+          <div className='icons-container'>
+            <a href="https://github.com/chrismendez11/rick-and-morty" target="_blank"><i className='bx bxl-github' ></i></a>
+            <a href="" target="_blank"><i className='bx bxl-twitter' ></i></a>
+            <a href="https://www.linkedin.com/in/christian-mendez-b8576822b/" target="_blank"><i className='bx bxl-linkedin-square' ></i></a>
+            
+          </div>
+          <h3><i className='bx bx-code'></i> Developed by <a href="https://www.linkedin.com/in/christian-mendez-b8576822b/" target="_blank">Christian Mendez</a> 2022</h3>
+        </div>
+      </footer>
     </div>
   )
 }
